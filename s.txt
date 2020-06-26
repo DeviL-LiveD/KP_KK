@@ -1,0 +1,1 @@
+Result(IfStatement(RelopBexp(<, IntAexp(1), IntAexp(2)), AssignStatement(x, IntAexp(1)), AssignStatement(x, IntAexp(2))), 13)
