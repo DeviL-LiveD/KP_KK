@@ -71,7 +71,7 @@ class TestImpParser(unittest.TestCase):
 
     def test_assign_stmt(self):
         self.parser_test('x := 1', stmt_list(), AssignStatement('x', IntAexp(1)))
-
+    #
     def test_if_stmt(self):
         code = 'if 1 < 2 then x := 3 else x := 4 end'
         expected = IfStatement(RelopBexp('<', IntAexp(1), IntAexp(2)),

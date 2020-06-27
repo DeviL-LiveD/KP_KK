@@ -1,3 +1,4 @@
+#
 my_file = open("s.txt")
 s = my_file.read()
 my_file.close()

@@ -16,7 +16,7 @@ class TestLexer(unittest.TestCase):
     def lexer_test(self, code, expected):
         actual = lex(code, token_exprs)
         self.assertEquals(expected, actual)
-
+    #
     def test_empty(self):
         self.lexer_test('', [])
 
